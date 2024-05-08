@@ -1,0 +1,30 @@
+Why docker:
+    developement and product server will be different 
+    dev-prod parity:
+        - localhost:
+            difficulties:
+                - version differences
+                - os differences
+            advantages:
+                - perfoemace
+                - no layers
+        - vm:
+            dis:
+                - performance
+                - configurational drift : new upadtes
+            advantage:
+                - robust separation
+                -
+
+        - container
+            runs from host but separately
+            not all hardware gets simulated : perfmomace
+            no configuration drift : containers not get updated, only images do
+            can run anywhere
+
+
+Footer
+IBM - Office of the CIO
+
+    IBM - Office of the CIO IBM - Office of the CIO
+
