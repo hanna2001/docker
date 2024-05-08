@@ -1,0 +1,13 @@
+docker commands:
+    docker run -it ubuntu /bin/bash
+        -i : interative 
+        -t : terminal
+        /bin/bash : process we want to run
+
+    docker ps/ docker container ps : list all running containers
+    docker ps -a : shows exited also
+
+    docker start CONTAINER_ID/NAME : to start a container
+    docker attach CONTAINER_ID/NAME : attach back to a container
+    docker stop CONTAINER_ID/NAME : to stop a container
+    docker rm CONTAINER_ID/NAME : to remove a stoped container
